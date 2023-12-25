@@ -7,15 +7,26 @@
   outline: none;
 }
 
-body {
+html, body {
   text-rendering: optimizeLegibility;
-}
+  overflow-x: hidden;
+  background: #000;
+  color: #fff;
+}  
 
+html, body, main {
+  width: 100%;
+  height: 100%;
+}
 a {
   text-decoration: none;
   color: inherit;
   display: inline-flex;
   cursor: pointer;
+}
+
+.icon {
+  position: relative;
 }
 
 img {
