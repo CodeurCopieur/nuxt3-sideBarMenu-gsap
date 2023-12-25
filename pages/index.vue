@@ -8,12 +8,12 @@
   <p>
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit sequi quo non perferendis soluta, magni tempore eveniet dolores ipsam saepe?
   </p>
-  <div class="overaly-toggle">
+
+ </div>  
+ <div class="overaly-toggle">
     <p>Lorem ipsum dolor sit</p>
     <p><Icon name="ic:baseline-arrow-forward"/></p>
   </div>
- </div>
- <SideBar />
 </template>
 
 <style lang="scss" scoped>
