@@ -4,7 +4,7 @@
 
 <template>
  <div class="hero">
-  <h1>Lorem ipsum dolor sit</h1>
+  <h1>Lorem ipsum dolor</h1>
   <p>
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit sequi quo non perferendis soluta, magni tempore eveniet dolores ipsam saepe?
   </p>
