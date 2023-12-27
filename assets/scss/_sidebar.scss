@@ -1,7 +1,7 @@
 .sidebar {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -110%;
   width: 30vw;
   height: 100vh;
   padding: .75em;
@@ -11,13 +11,15 @@
   gap: .75em;
 
   overflow: hidden;
-  // pointer-events: none;
+  z-index: 100;
+  pointer-events: none;
+  
+  z-index: 1000!important;
 }
 
 .card {
   position: relative;
   right: -110%;
-  // right: 0%;
   padding: 1em;
   flex: 1;
   background: #fff;
@@ -28,7 +30,6 @@
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
-  z-index: $z-sidebar;
 }
 
 .close-btn {
