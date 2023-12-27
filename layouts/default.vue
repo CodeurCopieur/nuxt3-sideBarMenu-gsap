@@ -8,7 +8,8 @@
     <div class="website-container">
       <Header/>
       <slot />
-      <SideBar />
+
     </div>
-  </div>
+  </div>      
+  <SideBar />
 </template>
